@@ -44,3 +44,62 @@ a {
   font-family: 'Beiruti', sans-serif;
   font-size: 1.125rem;
 }
+
+/* Hero Section */
+.hero {
+  background-image: url('images/scent-homepage-1.png');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #FFF7EB;
+}
+
+.hero-title {
+  font-family: 'Averia Serif Libre', serif;
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.hero-subtitle {
+  font-family: 'Beiruti', sans-serif;
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+/* Collection Section */
+.collection {
+  padding: 48px 36px 0;
+}
+
+.collection-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.collection-title {
+  font-family: 'Averia Serif Libre', serif;
+  font-size: 2rem;
+  font-weight: 400;
+  color: #333;
+}
+
+.collection-subtitle {
+  font-family: 'Beiruti', sans-serif;
+  font-size: 1rem;
+  color: #6F8B70;
+  margin-top: 0.25rem;
+}
+
+.collection-btn {
+  font-family: 'Beiruti', sans-serif;
+  font-size: 1rem;
+  color: #6F8B70;
+  border: 2px solid #6F8B70;
+  padding: 1rem 3.5rem;
+  display: inline-block;
+}
