@@ -1,49 +1,149 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Scentquility</title>
+<meta charset="utf-8">
+<title>scentquility</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Beiruti:wght@200..900&display=swap" rel="stylesheet">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@400;700&family=Beiruti:wght@400;700&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <div class="maincontainer">
+        <div class="hero">
+        <div class="header">
+        <h1 class="h1_logo">
+          <img src="images/scentlogo.png" alt="scentquility logo" class="logo">
+          scentquility
+        </h1>
 
-  <!-- Navbar -->
-  <nav class="navbar">
-    <div class="nav-left">
-      <img src="images/scentlogo.png" alt="Scentquility logo" class="nav-logo">
-      <span class="nav-brand">scentquility</span>
+<nav class="nav">
+ <a href="contact.html">contact</a>
+ <a href="about.html">about</a>
+ <a href="finder.html">finder</a>
+ <a href="insight.html">insight</a>
+ <a href="products.html">product</a>
+</nav>
+    </div>
+        <h2 class="h2">scentquility</h2>
+        <p class= "para">scent is the core of feeling</p>
     </div>
 
-    <ul class="nav-links">
-      <li><a href="#">products</a></li>
-      <li><a href="#">insight</a></li>
-      <li><a href="#">finder</a></li>
-      <li><a href="#">about</a></li>
-      <li><a href="#">contact</a></li>
-    </ul>
-  </nav>
-
-  <!-- Hero Section -->
-  <section class="hero">
-    <h1 class="hero-title">scentquility.</h1>
-    <p class="hero-subtitle">scent is the core of feeling</p>
-  </section>
-
-  <!-- Collection Section -->
-  <section class="collection">
-    <div class="collection-header">
-      <div>
-        <h2 class="collection-title">find your peace</h2>
-        <p class="collection-subtitle">our collection</p>
-      </div>
-      <a href="#" class="collection-btn">see more</a>
+    <div class="h3box"> 
+    <h3 class="h3">find your peace 
+        </h3>
+    <p class= "ph3"> our collection </p>
     </div>
-  </section>
+
+    <div class= "p3box" >
+      <p class="seemore"> see more</p>
+    </div>
+
+    <div class="product-grid">
+    <div class="product-card">
+        <img src="images/facemasks.jpg" alt="face masks" class="product-img">
+        <div class="product-label">
+            <p class="product-name">face masks</p>
+        </div>
+    </div>
+    <div class="product-card">
+        <img src="images/candles.jpg" alt="candles" class="product-img">
+        <div class="product-label">
+            <p class="product-name">candles</p>
+        </div>
+    </div>
+    <div class="product-card">
+        <img src="images/skincare.jpg" alt="skincare" class="product-img">
+        <div class="product-label">
+            <p class="product-name">skincare</p>
+        </div>
+    </div>
+</div>
+
+<div class="packages-section">
+    <h3 class="packages-title">packages</h3>
+    <div class="packages-grid">
+        <div class="package-card">
+            <img src="images/facemasks.jpg" alt="package 1" class="package-img">
+            <div class="package-label">
+                <p class="package-name">scentquility package 1</p>
+            </div>
+        </div>
+        <div class="package-card">
+            <img src="images/package2.jpg" alt="package 2" class="package-img">
+            <div class="package-label">
+                <p class="package-name">scentquility package 2</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="aromatherapy-section">
+    <div class="aroma-left">
+        <h3 class="aroma-title">what is aromatherapy?</h3>
+        <p class="aroma-subtitle">about us</p>
+        <p class="aroma-body">Aromatherapy is the practice of using natural plant extracts — particularly essential oils — to support physical and emotional wellbeing. When you inhale scent molecules, they travel directly to the brain's limbic system, the emotional command center that governs mood, memory, and stress response.</p>
+        <h4 class="aroma-how">how it works</h4>
+        <ol class="aroma-list">
+            <li>Inhale</li>
+            <li>Signal travels</li>
+            <li>Brain Responds</li>
+            <li>Body reacts</li>
+        </ol>
+        <div class="learn-more-btn">
+            <p class="learn-more-text">learn more</p>
+        </div>
+    </div>
+    <div class="aroma-right">
+        <img src="images/aromatherapy.jpg" alt="aromatherapy" class="aroma-img">
+    </div>
+</div>
+
+<div class="scent-section">
+    <div class="scent-header">
+        <div class="scent-title-box">
+            <h3 class="scent-title">find your scent</h3>
+            <p class="scent-sub">take our quiz</p>
+        </div>
+        <div class="quiz-btn">
+            <p class="quiz-btn-text">take our quiz</p>
+        </div>
+    </div>
+
+    <div class="scent-card" style="background-color: #8CB397;">
+        <h4 class="scent-name">jasmine</h4>
+        <p class="scent-body">Inhaling jasmine lifts mood, reduces anxiety, and boosts alertness. It's also widely associated with boosting confidence and romantic feelings. Great for daytime use or creative work.</p>
+        <div class="scent-tags">
+            <span class="tag" style="background-color: #BFD1C4;">stress relief</span>
+            <span class="tag" style="background-color: #BFD1C4;">anti anxiety</span>
+            <span class="tag" style="background-color: #BFD1C4;">alertness</span>
+        </div>
+    </div>
+
+    <div class="scent-card" style="background-color: #AF9CDD;">
+        <h4 class="scent-name">lavender</h4>
+        <p class="scent-body">Lavender's active compound has been shown to reduce anxiety, lower heart rate, and ease the mind into restful sleep.</p>
+        <div class="scent-tags">
+            <span class="tag" style="background-color: #CFC6E5;">sleep aid</span>
+            <span class="tag" style="background-color: #CFC6E5;">calming</span>
+            <span class="tag" style="background-color: #CFC6E5;">relaxing</span>
+        </div>
+    </div>
+
+    <div class="scent-card" style="background-color: #FFA197;">
+        <h4 class="scent-name">sandalwood</h4>
+        <p class="scent-body">Sandalwood is deeply grounding and calming. When inhaled it slows the mind, reduces anxiety, and promotes a meditative, focused stillness.</p>
+        <div class="scent-tags">
+            <span class="tag" style="background-color: #F5C9C4;">calming</span>
+            <span class="tag" style="background-color: #F5C9C4;">grounding</span>
+            <span class="tag" style="background-color: #F5C9C4;">meditative</span>
+        </div>
+    </div>
+</div>
+
+</div>
 
 </body>
 </html>
