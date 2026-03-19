@@ -75,15 +75,22 @@ a {
 }
 
 
-.h1{
+.h1 {
     font-family: "Averia Serif Libre", serif;
-    float: left;
     color: #FFF7EB;
-    margin-top: 21px;
-    margin-left: 74px;
     font-size: 17px;
-    height: 0px;
+    display: flex;
+    align-items: center;
 }
+
+.h1_logo {
+    font-family: "Averia Serif Libre", serif;
+    color: #FFF7EB !important;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+}
+
 .h2 {
     font-family: "Averia Serif Libre", serif;
     color: #FFF7EB;
@@ -114,16 +121,19 @@ a {
     font-family: "Beiruti", sans-serif;
     color: #FFF7EB;
     text-decoration: none;
-    float: right;
-    margin-right: 40px;
-    margin-top: 21px;
+    margin-left: 40px;
     font-weight: 700;
 }
 
 .header {
-    background-color:#6F8B70;
-    width: auto;
+    background-color: #6F8B70;
+    width: 100%;
     height: 61px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 
 .h3box {
@@ -162,6 +172,7 @@ a {
     width: auto;
     vertical-align: middle;
     margin-right: 8px;
+    filter: brightness(0) invert(1);
 }
 
 .product-grid {
