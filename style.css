@@ -263,7 +263,7 @@ a {
 
 .aroma-subtitle {
     font-family: "Beiruti", sans-serif;
-    color: #52795A;
+    color: #E8C84A;
     font-size: 18px;
     margin-bottom: 24px;
 }
@@ -382,8 +382,117 @@ a {
 
 .tag {
     font-family: "Beiruti", sans-serif;
-    color: #FFF7EB;
+    color: #283028;
     font-size: 17px;
     padding: 8px 20px;
     border-radius: 2px;
+}
+
+.reviews-section {
+    background-color: #DEE4D8;
+    padding: 60px 60px;
+    clear: both;
+}
+
+.reviews-title {
+    font-family: "Averia Serif Libre", serif;
+    font-size: 34px;
+    color: #283028;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.reviews-grid {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.review-card {
+    background-color: #FFF7EB;
+    width: 33%;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.review-flames {
+    display: flex;
+    gap: 8px;
+}
+
+.flame-icon {
+    height: 24px;
+    width: auto;
+}
+
+.review-text {
+    font-family: "Beiruti", sans-serif;
+    color: #283028;
+    font-size: 15px;
+    line-height: 1.7;
+    text-align: center;
+}
+
+.review-author {
+    font-family: "Beiruti", sans-serif;
+    color: #283028;
+    font-size: 15px;
+    margin-top: auto;
+}
+
+.signup-section {
+    background-color: #5A9472;
+    padding: 80px 60px;
+    text-align: center;
+    clear: both;
+}
+
+.signup-title {
+    font-family: "Averia Serif Libre", serif;
+    color: #FFF7EB;
+    font-size: 34px;
+    margin-bottom: 16px;
+}
+
+.signup-sub {
+    font-family: "Beiruti", sans-serif;
+    color: #FFF7EB;
+    font-size: 17px;
+    margin-bottom: 30px;
+}
+
+.signup-form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.signup-input {
+    background-color: #FFF7EB;
+    border: none;
+    padding: 14px 24px;
+    font-family: "Beiruti", sans-serif;
+    font-size: 16px;
+    color: #283028;
+    width: 320px;
+    outline: none;
+}
+
+.signup-btn {
+    background-color: #437457;
+    border: none;
+    padding: 14px 28px;
+    font-family: "Beiruti", sans-serif;
+    font-size: 16px;
+    color: #FFF7EB;
+    cursor: pointer;
+}
+
+.signup-brand {
+    font-family: "Averia Serif Libre", serif;
+    color: #FFF7EB;
+    font-size: 20px;
 }
